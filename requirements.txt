@@ -1,0 +1,4 @@
+from requests import get
+from time import sleep
+from googletrans import Translator
+from threading import Timer
