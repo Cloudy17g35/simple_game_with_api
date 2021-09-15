@@ -50,6 +50,3 @@ def play_game():
         current_player, waiting_player = waiting_player, current_player
 
     return f'player1 score: {current_player_score}, player2 score: {waiting_player_score}'
-
-
-print(play_game())
